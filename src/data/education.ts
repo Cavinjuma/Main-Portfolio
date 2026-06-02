@@ -3,8 +3,8 @@ import type { Certification, EducationItem } from '@/types';
 export const educationItems: EducationItem[] = [
   {
     id: 'edu-1',
-    degree: 'BSc, Software Engineering',
-    institution: 'University',
+    degree: 'BSc. in Software Engineering',
+    institution: 'Zetech University',
     period: '2022 — 2026',
     description:
       'Coursework in algorithms, data structures, operating systems, databases, software engineering, and distributed systems.',
@@ -15,7 +15,6 @@ export const educationItems: EducationItem[] = [
     ],
   },
 ];
-
 export const certifications: Certification[] = [
   {
     id: 'cert-1',
