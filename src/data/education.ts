@@ -3,9 +3,9 @@ import type { Certification, EducationItem } from '@/types';
 export const educationItems: EducationItem[] = [
   {
     id: 'edu-1',
-    degree: 'BSc. in Software Engineering',
+    degree: 'Bachelors of science in Software Engineering',
     institution: 'Zetech University',
-    period: '2022 — 2026',
+    period: 'Sep 2022 — Aug 2026',
     description:
       'Coursework in algorithms, data structures, operating systems, databases, software engineering, and distributed systems.',
     highlights: [
@@ -31,24 +31,27 @@ export const certifications: Certification[] = [
   },
   {
     id: 'cert-2',
-    title: 'AWS Certified Cloud Practitioner',
-    issuer: 'Amazon Web Services',
-    year: '2024',
-    credentialUrl: 'https://aws.amazon.com/certification/certified-cloud-practitioner/',
+    title: 'AI Essentials for professionals Certificate',
+    issuer: 'Moringa School',
+    year: '2026',
+    credentialUrl: 'https://drive.google.com/file/d/194eRGNIcSJDlrNx2DYAxD7oKCWFF5ihF/view?usp=drive_link',
     learned: [
-      'Core AWS services: EC2, S3, RDS, Lambda, IAM, VPC',
-      'Cloud architecture principles and the well-architected framework',
-      'Pricing, billing, and cost-optimisation strategies',
-      'Security and compliance fundamentals in the cloud',
+      'Core AI concepts and techniques',
+      'Natural language processing fundamentals',
+      'Machine learning fundamentals and applications',
+      'Prompt Engineering for effective AI interactions',
+      'Generation and cost-optimisation strategies',
+      'Ethical considerations and best practices for responsible AI use',
     ],
   },
   {
     id: 'cert-3',
     title: 'Google Data Analytics Professional Certificate',
     issuer: 'Google · Coursera',
-    year: '2023',
-    credentialUrl: 'https://www.coursera.org/professional-certificates/google-data-analytics',
+    year: '2026',
+    credentialUrl: '',
     learned: [
+      'COURSE ONGOING...',
       'Data cleaning, transformation, and analysis with SQL and spreadsheets',
       'Exploratory data analysis and visualisation with R and Tableau',
       'Building data-driven recommendations and reports',
@@ -59,9 +62,10 @@ export const certifications: Certification[] = [
     id: 'cert-4',
     title: 'freeCodeCamp — Responsive Web Design & JavaScript Algorithms',
     issuer: 'freeCodeCamp',
-    year: '2022',
-    credentialUrl: 'https://www.freecodecamp.org/learn',
+    year: '2026',
+    credentialUrl: '',
     learned: [
+      'COURSE ONGOING...',
       'HTML5, CSS3, Flexbox, and Grid for responsive layouts',
       'Core JavaScript: ES6+, closures, async/await, and the DOM',
       'Algorithmic problem solving and data structures fundamentals',

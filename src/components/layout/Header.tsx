@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { photographerInfo } from '@/data/photographer';
 import { cn } from '@/lib/utils';
+import { HandwrittenName } from '@/components/HandwrittenName';
 
 const navLinks = [
   { name: 'Home', path: '/' },
@@ -59,6 +60,7 @@ export function Header() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
+             
               {photographerInfo.name.toUpperCase()}
             </motion.span>
           </Link>

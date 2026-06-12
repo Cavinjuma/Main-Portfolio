@@ -7,6 +7,9 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { HandwrittenName } from '@/components/HandwrittenName';
+
+
 
 /**
  * Homepage with immersive hero section and featured projects grid
@@ -24,22 +27,9 @@ export default function Home() {
       <section className="relative h-screen w-full overflow-hidden">
         {/* Background Video */}
         <div className="absolute inset-0">
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            poster="MeX.jpeg"
-            className="w-full h-full object-cover"
-            onError={(e) => {
-              const target = e.currentTarget;
-              target.style.opacity = '0';
-            }}
-          >
-            <source src="programpic.mp4" type="video/mp4" />
-          </video>
-          {/* Video from Pexels */}
+          
+          <img src="MeX.jpeg" alt="Hero Background" className="w-full h-full object-cover" />
+            
           {/* Gradient Overlay for text readability */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60" />
         </div>
@@ -58,7 +48,13 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.2 }}
             >
-              {photographerInfo.name.toUpperCase()}
+              <HandwrittenName 
+        name={photographerInfo.name}
+        animationDelay={45}
+        initialDelay={200}
+        className="hero-name"
+      />
+              {/* {photographerInfo.name.toUpperCase()} */}
             </motion.h1>
             
             <motion.p

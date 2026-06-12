@@ -35,9 +35,9 @@ Whether I'm architecting a new service or polishing the last 10% of a UI, my goa
   location: 'Nairobi, Kenya',
   email: 'jumacavin28@gmail.com',
   phone: '+254 704225571',
-  availability: 'Open to full-time roles and freelance engagements',
+  availability: 'Open to full-time/part-time roles and freelance engagements',
   socialLinks: {
-    linkedin: 'https://linkedin.com/in/jumaotienocavin',
+    linkedin: 'https://www.linkedin.com/in/juma-cavin9090',
     github: 'https://github.com/Cavinjuma'
   },
   // Photo 
