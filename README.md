@@ -1,5 +1,5 @@
 ## Main Portfolio Website - JUMA OTIENO CAVIN 
-Live Hosting: https://jumaotienocavin.netlify.app/
+Live Hosting: https://jumacavinotieno.vercel.app/
 
 ## How can I run this code?
 
