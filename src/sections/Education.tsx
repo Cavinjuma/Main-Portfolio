@@ -121,7 +121,7 @@ export function Education() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 text-sm font-light tracking-wide text-foreground hover:text-muted-foreground transition-colors pt-1"
                       >
-                        <span>View credential</span>
+                        <span>View Certificate</span>
                         <ExternalLink className="size-3.5" />
                       </a>
                     )}

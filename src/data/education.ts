@@ -3,15 +3,17 @@ import type { Certification, EducationItem } from '@/types';
 export const educationItems: EducationItem[] = [
   {
     id: 'edu-1',
-    degree: 'Bachelors of science in Software Engineering',
+    degree: 'Bachelors of Science in Software Engineering',
     institution: 'Zetech University',
     period: 'Sep 2022 — Aug 2026',
     description:
-      'Coursework in algorithms, data structures, operating systems, databases, software engineering, and distributed systems.',
+      'Coursework in: DSA, Object Oriented Programming(Java, C++, Python), Operating Systems, Databases, Distributed Systems, Web, Mobile and Enterprise Application Development, Data Science and AI, CyberSecurity, Network Programming.',
     highlights: [
-      'Built a final-year capstone: a real-time collaboration platform with WebSockets',
-      'Teaching assistant for Introduction to Programming (Python)',
-      'Active member of the campus developer community',
+      'Built multiple projects including a final-year capstone: a real-time collaboration platform with WebSockets',
+      'Attended and actively participated in various tech meetups, hackathons, and coding competitions, enhancing practical skills and networking with industry professionals.',
+      'Led a team of 4 in a software development project, applying agile methodologies and version control with Git to deliver a functional application within the semester timeline.',
+      'Integrated third-party APIs and services into projects, gaining experience in API consumption, authentication, and data handling.',
+      'Conducted code reviews and provided constructive feedback to peers, fostering a collaborative learning environment and improving code quality.',
     ],
   },
 ];
@@ -19,7 +21,7 @@ export const certifications: Certification[] = [
   {
     id: 'cert-1',
     title: 'Web, Python and Database Development Certificate',
-    issuer: 'PowerLearn · African Virtual University',
+    issuer: 'PLP-Africa · PowerLearn Project, Africa',
     year: '2025',
     credentialUrl: 'https://drive.google.com/file/d/1dKPTUaPJzC4O70KipTJyfxteoNhXghSZ/view?usp=drive_link',
     learned: [
@@ -46,30 +48,43 @@ export const certifications: Certification[] = [
   },
   {
     id: 'cert-3',
-    title: 'Google Data Analytics Professional Certificate',
-    issuer: 'Google · Coursera',
-    year: '2026',
-    credentialUrl: '',
-    learned: [
-      'COURSE ONGOING...',
-      'Data cleaning, transformation, and analysis with SQL and spreadsheets',
-      'Exploratory data analysis and visualisation with R and Tableau',
-      'Building data-driven recommendations and reports',
-      'Statistical thinking for business decisions',
+        title: 'AI Engineering Mastery Certificate',
+        issuer: 'Ivy Code Academy',
+        year: '2026',
+        credentialUrl: 'https://drive.google.com/file/d/1--z5nsI4Xxf5eLKcBclANFxkma1ASZaS/view?usp=drive_link',
+        learned: [
+          'AI model development and deployment with Python and TensorFlow',
+          'Real-world AI applications in computer vision, NLP, and recommendation systems',
+          'Retrieval-augmented generation (RAG) and fine-tuning techniques',
+          'AI project management, collaboration, and ethical considerations',
+    ],
+  },
+  
+  {
+    id: 'cert-4',
+        title: 'Certificate in Communication Skills',
+        issuer: 'YENA · Youth Empowerment Network Africa',
+        year: '2026',
+        credentialUrl: 'https://drive.google.com/file/d/1qVQdvrd4qBIqlo9zo9dhC7fkAcM8Eaww/view?usp=drive_link',
+        learned: [
+          'Communication strategies for effective interpersonal and professional interactions',
+          'Active listening and feedback techniques',
+          'Public speaking and presentation skills',
+          'Conflict resolution and negotiation tactics',
     ],
   },
   {
-    id: 'cert-4',
-    title: 'freeCodeCamp — Responsive Web Design & JavaScript Algorithms',
-    issuer: 'freeCodeCamp',
+    id: 'cert-5',
+    title: 'Google IT Support Professional Certificate',
+    issuer: 'Google',
     year: '2026',
     credentialUrl: '',
     learned: [
       'COURSE ONGOING...',
-      'HTML5, CSS3, Flexbox, and Grid for responsive layouts',
-      'Core JavaScript: ES6+, closures, async/await, and the DOM',
-      'Algorithmic problem solving and data structures fundamentals',
-      'Project-based learning by shipping small apps end-to-end',
+      'IT fundamentals, troubleshooting, and customer support',
+      'Networking, system administration, and security basics',
+      'Hands-on labs and real-world scenarios for practical experience',
+      'Preparation for the Google IT Support Professional Certificate exam',
     ],
   },
 ];

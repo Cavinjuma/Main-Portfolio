@@ -6,7 +6,7 @@ const codeCover = (id: string) => `https://images.unsplash.com/${id}?auto=format
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'Capital Stock App',
+    title: 'Capital Stock App — Real-time Capital Stock Market Platform',
     category: 'web',
     year: '2026',
     slug: 'capital-stock-app',
@@ -49,7 +49,7 @@ export const projects: Project[] = [
     coverImage: codeCover('photo-1558494949-ef010cbdcc31'),
     description:
       'A Human Resource management portal with employee records, leave requests, and payroll integration. Built a RESTful API with Node.js and Fastify, using PostgreSQL for data storage and Vercel for deployment. Implemented role-based access control(RBAC) and comprehensive test coverage.',
-    client: 'Solo Engineer · Human Resource',
+    client: 'FullStack Engineer',
     camera: 'React, Javascript, Node.js, Fastify, PostgreSQL, Terraform, Vercel',
     location: 'https://github.com/Cavinjuma/Human-Resource-Portal',
     images: [
@@ -60,16 +60,16 @@ export const projects: Project[] = [
   },
   {
     id: '4',
-    title: 'Jenga Construction — Building and construction company website',
+    title: 'Docx.AI - AI-powered document analysis and summarization',
     category: 'web',
-    year: '2025',
-    slug: 'jenga-construction',
+    year: '2026',
+    slug: 'docx-ai',
     coverImage: codeCover('photo-1677442136019-21780ecad995'),
     description:
-      'A modern website for a building and construction company, showcasing their services and projects. Built with HTML5, Javascript and styled-components for a responsive design.',
+      'An intelligent document analysis platform that leverages AI to extract key insights, summarize content, and provide actionable recommendations. Built with a React frontend and a Python backend using FastAPI, integrated with OpenAI for natural language processing.',
     client: 'Solo project',
-    camera: 'HTML5, Javascript, styled-components, Supabase, Vercel',
-    location: 'https://github.com/Cavinjuma/Jenga-Construction',
+    camera: 'React, Python, FastAPI, OpenAI, Vercel',
+    location: 'https://github.com/Cavinjuma/Docx.AI',
     images: [
       { id: '4-1', src: codeCover('photo-1677442136019-21780ecad995'), alt: 'AI chat UI', aspectRatio: 'landscape' },
       { id: '4-2', src: codeCover('photo-1620712943543-bcc4688e7485'), alt: 'AI concept', aspectRatio: 'landscape' },
@@ -78,33 +78,33 @@ export const projects: Project[] = [
   },
   {
     id: '5',
-    title: 'use-async-state — Open Source React Hook',
-    category: 'opensource',
-    year: '2024',
-    slug: 'use-async-state',
+    title: 'Jenga Construction — Construction Management Platform',
+    category: 'web',
+    year: '2025',
+    slug: 'jenga-construction',
     coverImage: codeCover('photo-1633356122544-f134324a6cee'),
     description:
-      'A tiny, dependency-free React hook for managing async state with cancellation, retries, and TypeScript-first ergonomics. Published to npm with 100% test coverage and full documentation site.',
-    client: 'Maintainer · Open Source',
-    camera: 'TypeScript, React, Vitest, tsup, Changesets',
-    location: 'https://github.com/jumaotienocavin',
+      'A construction management platform that streamlines project planning, resource allocation, and progress tracking. Built with a React frontend and a Node.js backend, featuring real-time collaboration tools and Gantt chart visualizations.',
+    client: 'Full-stack Engineer',
+    camera: 'TypeScript, React, Vitest, Node.js, PostgreSQL, TailwindCSS',
+    location: 'https://github.com/Cavinjuma/Jenga-Construction',
     images: [
-      { id: '5-1', src: codeCover('photo-1633356122544-f134324a6cee'), alt: 'Open source code', aspectRatio: 'landscape' },
+      { id: '5-1', src: codeCover('photo-1633356122544-f134324a6cee'), alt: 'Project dashboard', aspectRatio: 'landscape' },
       { id: '5-2', src: codeCover('photo-1518770660439-4636190af475'), alt: 'GitHub repo', aspectRatio: 'landscape' },
     ],
   },
   {
     id: '6',
-    title: 'Shamba — Smart Farming Dashboard',
+    title: 'SmartSeason — Field Monitoring System for Smallholder Farmers',
     category: 'web',
-    year: '2023',
-    slug: 'shamba',
+    year: '2025',
+    slug: 'smartseason',
     coverImage: codeCover('photo-1460925895917-afdab827c52f'),
     description:
       'A dashboard for smallholder farmers visualising soil sensor data, weather forecasts, and yield predictions. Built with Next.js, server components, and a Python data pipeline.',
     client: 'Full-stack Engineer',
-    camera: 'Next.js, TypeScript, Python, TimescaleDB, Recharts',
-    location: 'https://github.com/jumaotienocavin',
+    camera: 'React, TypeScript, Javascript, Recharts',
+    location: 'https://github.com/Cavinjuma/SmartSeason',
     images: [
       { id: '6-1', src: codeCover('photo-1460925895917-afdab827c52f'), alt: 'Dashboard charts', aspectRatio: 'landscape' },
       { id: '6-2', src: codeCover('photo-1551288049-bebda4e38f71'), alt: 'Analytics view', aspectRatio: 'landscape' },

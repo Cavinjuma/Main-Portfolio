@@ -10,9 +10,9 @@ export const photographerInfo: PhotographerInfo = {
   tagline: 'Software Engineer',
   heroIntroduction:
     'Building reliable, well-crafted software — from clean APIs to delightful user interfaces.',
-  biography: `Juma Otieno Cavin is a software engineer focused on building production-grade web and mobile applications. He works across the stack with TypeScript, React, Node.js, and Python, and enjoys turning fuzzy problems into clean, maintainable systems.
-
-His work spans full-stack web apps, REST and GraphQL APIs, cloud deployments, and AI-assisted tooling. He cares about code quality, developer experience, and shipping software that real people enjoy using.`,
+  biography:`Juma Cavin is a Software Engineer passionate about turning complex challenges into simple, effective, and scalable digital experiences. I specialize in full-stack web development, combining modern technologies, thoughtful design, and practical problem-solving to build applications that serve real user needs. 
+  My development experience covers frontend engineering, backend systems, API integration, database management, and software deployment. I enjoy working with React, JavaScript, Node.js, Express, and PostgreSQL, and I'm particularly interested in incorporating AI-powered capabilities into modern applications.
+I'm naturally curious, adaptable, and committed to continuous improvement. Whether developing a new product, improving an existing system, or exploring emerging technologies, my focus remains on building reliable software that delivers genuine value.`,
   approach: `My engineering practice is guided by three principles: clarity, correctness, and craft. I write code that the next person can read, design systems that fail gracefully, and ship iteratively with tight feedback loops.
 
 Whether I'm architecting a new service or polishing the last 10% of a UI, my goal is the same: software that's honest about what it does and a pleasure to maintain.`,
