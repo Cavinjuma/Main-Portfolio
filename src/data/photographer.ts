@@ -1,16 +1,16 @@
 import type { PhotographerInfo } from '@/types';
 
 /**
- * Profile info for Juma Otieno Cavin.
+ * Profile info for Juma Cavin Otieno.
  * The exported name is kept as `photographerInfo` to avoid a wide rename,
  * but the data describes a software engineer.
  */
 export const photographerInfo: PhotographerInfo = {
-  name: 'Juma Otieno Cavin',
-  tagline: 'Software Engineer',
+  name: 'Juma Cavin Otieno',
+  tagline: 'Software Engineer | Full-Stack Developer | AI Enthusiast',
   heroIntroduction:
     'Building reliable, well-crafted software — from clean APIs to delightful user interfaces.',
-  biography:`Juma Cavin is a Software Engineer passionate about turning complex challenges into simple, effective, and scalable digital experiences. I specialize in full-stack web development, combining modern technologies, thoughtful design, and practical problem-solving to build applications that serve real user needs. 
+  biography:`Juma Cavin .O. is a Software Engineer passionate about turning complex challenges into simple, effective, and scalable digital experiences. I specialize in full-stack web development, combining modern technologies, thoughtful design, and practical problem-solving to build applications that serve real user needs. 
   My development experience covers frontend engineering, backend systems, API integration, database management, and software deployment. I enjoy working with React, JavaScript, Node.js, Express, and PostgreSQL, and I'm particularly interested in incorporating AI-powered capabilities into modern applications.
 I'm naturally curious, adaptable, and committed to continuous improvement. Whether developing a new product, improving an existing system, or exploring emerging technologies, my focus remains on building reliable software that delivers genuine value.`,
   approach: `My engineering practice is guided by three principles: clarity, correctness, and craft. I write code that the next person can read, design systems that fail gracefully, and ship iteratively with tight feedback loops.
